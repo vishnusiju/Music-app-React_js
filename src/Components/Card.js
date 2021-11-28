@@ -7,7 +7,7 @@ const Card = ({songs}) => {
             <div className="row">
                 {songs.map(song =>{
                     return(
-                        <div className="col-md-3" key={song.id}>
+                        <div className="col-md-3 col-sm-6" key={song.id}>
                             <div className="card">
                                 <img src={song.img} className="card-img-top" alt={song.title}/>
                             </div>
